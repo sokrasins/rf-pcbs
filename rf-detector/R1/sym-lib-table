@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name rf-detector-rescue)(type Legacy)(uri ${KIPRJMOD}/rf-detector-rescue.lib)(options "")(descr ""))
+  (lib (name rf-parts)(type Legacy)(uri ${KIPRJMOD}/rf-parts.lib)(options "")(descr ""))
+)

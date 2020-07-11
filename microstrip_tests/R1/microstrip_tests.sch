@@ -1,0 +1,266 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5ED18FDC
+P 3500 3000
+F 0 "J1" H 3600 2975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3600 2884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 3000 50  0001 C CNN
+F 3 " ~" H 3500 3000 50  0001 C CNN
+	1    3500 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5ED1A01D
+P 3500 4000
+F 0 "J3" H 3428 4238 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 4147 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 4000 50  0001 C CNN
+F 3 " ~" H 3500 4000 50  0001 C CNN
+	1    3500 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5ED1A390
+P 4500 4000
+F 0 "J6" H 4600 3975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 3884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4500 4000 50  0001 C CNN
+F 3 " ~" H 4500 4000 50  0001 C CNN
+	1    4500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5ED1A784
+P 3500 5000
+F 0 "J4" H 3428 5238 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 5147 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 5000 50  0001 C CNN
+F 3 " ~" H 3500 5000 50  0001 C CNN
+	1    3500 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5ED1ABFF
+P 4500 5000
+F 0 "J7" H 4600 4975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 4884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4500 5000 50  0001 C CNN
+F 3 " ~" H 4500 5000 50  0001 C CNN
+	1    4500 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5ED1AE55
+P 3500 6000
+F 0 "J5" H 3428 6238 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 6147 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 6000 50  0001 C CNN
+F 3 " ~" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 5ED1B03F
+P 4500 6000
+F 0 "J8" H 4600 5975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 5884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4500 6000 50  0001 C CNN
+F 3 " ~" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5ED19527
+P 4500 3000
+F 0 "J2" H 4600 2975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 2884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4500 3000 50  0001 C CNN
+F 3 " ~" H 4500 3000 50  0001 C CNN
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6000 4300 6000
+Wire Wire Line
+	3700 5000 4300 5000
+Wire Wire Line
+	3700 4000 4300 4000
+Wire Wire Line
+	3700 3000 4300 3000
+$Comp
+L power:GND #PWR0101
+U 1 1 5ED28F2D
+P 3500 3350
+F 0 "#PWR0101" H 3500 3100 50  0001 C CNN
+F 1 "GND" H 3505 3177 50  0000 C CNN
+F 2 "" H 3500 3350 50  0001 C CNN
+F 3 "" H 3500 3350 50  0001 C CNN
+	1    3500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5ED29102
+P 4500 3350
+F 0 "#PWR0102" H 4500 3100 50  0001 C CNN
+F 1 "GND" H 4505 3177 50  0000 C CNN
+F 2 "" H 4500 3350 50  0001 C CNN
+F 3 "" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5ED2A388
+P 3500 4350
+F 0 "#PWR0103" H 3500 4100 50  0001 C CNN
+F 1 "GND" H 3505 4177 50  0000 C CNN
+F 2 "" H 3500 4350 50  0001 C CNN
+F 3 "" H 3500 4350 50  0001 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5ED2A6C3
+P 4500 4350
+F 0 "#PWR0104" H 4500 4100 50  0001 C CNN
+F 1 "GND" H 4505 4177 50  0000 C CNN
+F 2 "" H 4500 4350 50  0001 C CNN
+F 3 "" H 4500 4350 50  0001 C CNN
+	1    4500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5ED2B1DC
+P 3500 5350
+F 0 "#PWR0105" H 3500 5100 50  0001 C CNN
+F 1 "GND" H 3505 5177 50  0000 C CNN
+F 2 "" H 3500 5350 50  0001 C CNN
+F 3 "" H 3500 5350 50  0001 C CNN
+	1    3500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5ED2B3F1
+P 4500 5350
+F 0 "#PWR0106" H 4500 5100 50  0001 C CNN
+F 1 "GND" H 4505 5177 50  0000 C CNN
+F 2 "" H 4500 5350 50  0001 C CNN
+F 3 "" H 4500 5350 50  0001 C CNN
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5ED2D38E
+P 3500 6350
+F 0 "#PWR0107" H 3500 6100 50  0001 C CNN
+F 1 "GND" H 3505 6177 50  0000 C CNN
+F 2 "" H 3500 6350 50  0001 C CNN
+F 3 "" H 3500 6350 50  0001 C CNN
+	1    3500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5ED2D626
+P 4500 6350
+F 0 "#PWR0108" H 4500 6100 50  0001 C CNN
+F 1 "GND" H 4505 6177 50  0000 C CNN
+F 2 "" H 4500 6350 50  0001 C CNN
+F 3 "" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6350 3500 6200
+Wire Wire Line
+	4500 6200 4500 6350
+Wire Wire Line
+	3500 5200 3500 5350
+Wire Wire Line
+	4500 5200 4500 5350
+Wire Wire Line
+	3500 4200 3500 4350
+Wire Wire Line
+	4500 4200 4500 4350
+Wire Wire Line
+	3500 3200 3500 3350
+Wire Wire Line
+	4500 3200 4500 3350
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 5ED2BA3C
+P 3500 6900
+F 0 "J9" H 3428 7138 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 7047 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 3500 6900 50  0001 C CNN
+F 3 " ~" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J10
+U 1 1 5ED2C266
+P 4500 6900
+F 0 "J10" H 4600 6875 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 6784 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 4500 6900 50  0001 C CNN
+F 3 " ~" H 4500 6900 50  0001 C CNN
+	1    4500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5ED2CAA5
+P 3500 7350
+F 0 "#PWR0109" H 3500 7100 50  0001 C CNN
+F 1 "GND" H 3505 7177 50  0000 C CNN
+F 2 "" H 3500 7350 50  0001 C CNN
+F 3 "" H 3500 7350 50  0001 C CNN
+	1    3500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5ED2CF1F
+P 4500 7350
+F 0 "#PWR0110" H 4500 7100 50  0001 C CNN
+F 1 "GND" H 4505 7177 50  0000 C CNN
+F 2 "" H 4500 7350 50  0001 C CNN
+F 3 "" H 4500 7350 50  0001 C CNN
+	1    4500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 7100 3500 7350
+Wire Wire Line
+	3700 6900 4300 6900
+Wire Wire Line
+	4500 7100 4500 7350
+$EndSCHEMATC

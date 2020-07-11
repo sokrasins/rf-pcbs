@@ -1,0 +1,166 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5ED1AE55
+P 3500 6000
+F 0 "J2" H 3428 6238 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 6147 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 3500 6000 50  0001 C CNN
+F 3 " ~" H 3500 6000 50  0001 C CNN
+	1    3500 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5ED1B03F
+P 4500 6000
+F 0 "J4" H 4600 5975 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 5884 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 4500 6000 50  0001 C CNN
+F 3 " ~" H 4500 6000 50  0001 C CNN
+	1    4500 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6000 4300 6000
+$Comp
+L power:GND #PWR02
+U 1 1 5ED2D38E
+P 3500 6350
+F 0 "#PWR02" H 3500 6100 50  0001 C CNN
+F 1 "GND" H 3505 6177 50  0000 C CNN
+F 2 "" H 3500 6350 50  0001 C CNN
+F 3 "" H 3500 6350 50  0001 C CNN
+	1    3500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5ED2D626
+P 4500 6350
+F 0 "#PWR04" H 4500 6100 50  0001 C CNN
+F 1 "GND" H 4505 6177 50  0000 C CNN
+F 2 "" H 4500 6350 50  0001 C CNN
+F 3 "" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 6350 3500 6200
+Wire Wire Line
+	4500 6200 4500 6350
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5ED2BA3C
+P 3500 6900
+F 0 "J3" H 3428 7138 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 7047 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 3500 6900 50  0001 C CNN
+F 3 " ~" H 3500 6900 50  0001 C CNN
+	1    3500 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5ED2C266
+P 4500 6900
+F 0 "J5" H 4600 6875 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4600 6784 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 4500 6900 50  0001 C CNN
+F 3 " ~" H 4500 6900 50  0001 C CNN
+	1    4500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5ED2CAA5
+P 3500 7350
+F 0 "#PWR03" H 3500 7100 50  0001 C CNN
+F 1 "GND" H 3505 7177 50  0000 C CNN
+F 2 "" H 3500 7350 50  0001 C CNN
+F 3 "" H 3500 7350 50  0001 C CNN
+	1    3500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5ED2CF1F
+P 4500 7350
+F 0 "#PWR05" H 4500 7100 50  0001 C CNN
+F 1 "GND" H 4505 7177 50  0000 C CNN
+F 2 "" H 4500 7350 50  0001 C CNN
+F 3 "" H 4500 7350 50  0001 C CNN
+	1    4500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 7100 3500 7350
+Wire Wire Line
+	3700 6900 4300 6900
+Wire Wire Line
+	4500 7100 4500 7350
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5F07375A
+P 3500 5100
+F 0 "J1" H 3428 5338 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3428 5247 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 3500 5100 50  0001 C CNN
+F 3 " ~" H 3500 5100 50  0001 C CNN
+	1    3500 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5F073DCD
+P 4550 5100
+F 0 "J6" H 4650 5075 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4650 4984 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount" H 4550 5100 50  0001 C CNN
+F 3 " ~" H 4550 5100 50  0001 C CNN
+	1    4550 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5F0743F2
+P 3500 5400
+F 0 "#PWR01" H 3500 5150 50  0001 C CNN
+F 1 "GND" H 3505 5227 50  0000 C CNN
+F 2 "" H 3500 5400 50  0001 C CNN
+F 3 "" H 3500 5400 50  0001 C CNN
+	1    3500 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5F074613
+P 4550 5400
+F 0 "#PWR06" H 4550 5150 50  0001 C CNN
+F 1 "GND" H 4555 5227 50  0000 C CNN
+F 2 "" H 4550 5400 50  0001 C CNN
+F 3 "" H 4550 5400 50  0001 C CNN
+	1    4550 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5100 4350 5100
+Wire Wire Line
+	3500 5300 3500 5400
+Wire Wire Line
+	4550 5300 4550 5400
+$EndSCHEMATC
